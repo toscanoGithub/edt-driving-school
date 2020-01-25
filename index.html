@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Elite Driving Tuition</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- PRETTY CHECKBOX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+
+  <!--  NORMALIZE -->
+  <link rel="stylesheet" href="./helpers/normalize.css">
+  <!-- BOOTSTRAP 4 -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+  <!--  GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
+
+  <!--  MY STYLES -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media_queries.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+
+      <nav>
+        <div class="nav-row">
+          <!-- Keep within 1140px width -->
+          <img src="./images/logo.png" alt="EDT Logo" class="logo">
+          <ul id="js--main-nav" class="main-nav js--main-nav">
+            <li><a href="#about">About us</a>
+            </li>
+            <li><a href="#why">Why choose us</a>
+            </li>
+            <li><a href="#features">Our features</a>
+            </li>
+            <li><a href="#how-to">How it works</a>
+            </li>
+            <li><a href="#contact">contact us</a>
+            </li>
+          </ul>
+          <a onclick="hambergerClicked()" id="js--nav-icon" class="mobile-nav-icon "><i class="fas fa-bars js--nav-icon"></i></a>
+          <!-- No href -->
+        </div>
+      </nav>
+
+      <div id="hero">
+        <h1>Welcome to the Elite Driving Tuition</h1>
+        <p>your first steps to drive</p>
+        <a class="btn-hero" href="./pages/our-plan.html">Get Started</a>
+      </div>
+
+
+    </header>
+
+    <main>
+
+      <div id="form-container">
+        <div class="info-header">
+          <h3>Form Info</h3>
+        </div>
+        <form action="#" method="post">
+          <input type="text" name="name" id="name" placeholder="Your Name">
+          <input type="email" name="mail" id="mail" placeholder="Your Email">
+          <input type="tel" name="phone" id="phone" placeholder="Your Phone Number">
+          <input type="number" name="age" id="age" placeholder="Your Age">
+          <select name="preferred-time" id="preferred-time">
+            <option>Select Time</option>
+            <option value="12-300">12-3.00</option>
+            <option value="12-300">10-12.00</option>
+            <option value="08-10.00">12-300</option>
+            <option value="06-08.00">12-300</option>
+          </select>
+
+
+          <div class="pretty p-default p-thick p-pulse">
+            <input type="checkbox" name="call-me" id="call-me" />
+            <div class="state p-warning-o">
+              <label for="call-me">Yes Call Me</label>
+            </div>
+          </div>
+
+
+          <input type="submit" value="Find My Course">
+        </form>
+      </div>
+
+
+
+      <section id="about">
+        <div class="section-title">
+          <h2>About us</h2>
+        </div>
+
+        <div class="container-fluid">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sunt quidem possimus! Perferendis eius tenetur nostrum culpa officiis consequuntur cumque asperiores cupiditate aspernatur quis vel, recusandae dolores. Perferendis asperiores, laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veritatis, placeat possimus. Unde maxime officia porro a quae aliquam sed vitae! Suscipit possimus, eos, tenetur pariatur amet provident nisi eveniet.
+          </p>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <section id="why">
+        <div class="section-title">
+          <h2>Why choose us</h2>
+        </div>
+
+        <div class="container-fluid">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sunt quidem possimus! Perferendis eius tenetur nostrum culpa officiis consequuntur cumque asperiores cupiditate aspernatur quis vel, recusandae dolores. Perferendis asperiores, laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veritatis, placeat possimus. Unde maxime officia porro a quae aliquam sed vitae! Suscipit possimus, eos, tenetur pariatur amet provident nisi eveniet.
+          </p>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <h4 class="why-heading">We are certified</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia molestiae nostrum deleniti qui, sed illum unde nobis, optio facilis natus praesentium ut et corporis ab tempore facere esse vero veritatis.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <h4 class="why-heading">Excellent teaching</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi repudiandae sapiente consequatur, illum ab amet aut possimus, voluptatem ducimus dolorum nam beatae tempore distinctio, nulla facere maxime tenetur ipsa consectetur!</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <h4 class="why-heading">Affordable, split payments</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet exercitationem asperiores, tempora recusandae, a consequuntur quibusdam. Atque, voluptas vitae possimus doloribus quas, quos exercitationem repellendus delectus ab explicabo, dicta ullam?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <section>
+        <div class="parallax" id="img-student">
+        </div>
+
+      </section>
+
+
+      <section id="features">
+        <div class="section-title">
+          <h2>Our features</h2>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <i class="fas fa-road"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Learning Roads</h5>
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum neque rerum autem cumque, beatae aliquam facere! Totam asperiores non quo velit, quasi laborum optio eaque inventore, perferendis quibusdam voluptate ipsum!</p>
+                  <a href="#" class="btn-card">See More...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <i class="fas fa-question"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Unlimited car support</h5>
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum neque rerum autem cumque, beatae aliquam facere! Totam asperiores non quo velit, quasi laborum optio eaque inventore, perferendis quibusdam voluptate ipsum!</p>
+                  <a href="#" class="btn-card">See More...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <i class="fas fa-car-crash"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Driving School Insures</h5>
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum neque rerum autem cumque, beatae aliquam facere! Totam asperiores non quo velit, quasi laborum optio eaque inventore, perferendis quibusdam voluptate ipsum!</p>
+                  <a href="#" class="btn-card">See More...</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card">
+                <i class="fas fa-map-marker"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Any Time Any Location</h5>
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum neque rerum autem cumque, beatae aliquam facere! Totam asperiores non quo velit, quasi laborum optio eaque inventore, perferendis quibusdam voluptate ipsum!</p>
+                  <a href="#" class="btn-card">See More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section id="how-to">
+        <div class="section-title">
+          <h2>How it works</h2>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="how-card-wrapper">
+              <div class="how-card">
+                <div class="how-left">
+                  <div class="how-left-title">
+                    <h3>Phase 1</h3>
+                  </div>
+                  <div class="how-left-subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="how-right">
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="phase-description">
+                <p><em>Phase 1: </em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nisi deserunt ex, voluptatum praesentium laborum fugiat molestiae voluptates aliquam alias amet eaque, provident nulla. Aut tenetur molestiae harum consequatur in.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellat saepe natus quibusdam laborum neque, reiciendis in. Provident, aliquid. Assumenda optio nisi rem facilis iure blanditiis perspiciatis eaque dicta quam.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="how-card-wrapper">
+              <div class="how-card">
+                <div class="how-left">
+                  <div class="how-left-title">
+                    <h3>Phase 2</h3>
+                  </div>
+                  <div class="how-left-subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="how-right">
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="phase-description">
+                <p><em>Phase 2: </em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nisi deserunt ex, voluptatum praesentium laborum fugiat molestiae voluptates aliquam alias amet eaque, provident nulla. Aut tenetur molestiae harum consequatur in.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellat saepe natus quibusdam laborum neque, reiciendis in. Provident, aliquid. Assumenda optio nisi rem facilis iure blanditiis perspiciatis eaque dicta quam.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="how-card-wrapper">
+              <div class="how-card">
+                <div class="how-left">
+                  <div class="how-left-title">
+                    <h3>Phase 3</h3>
+                  </div>
+                  <div class="how-left-subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="how-right">
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="phase-description">
+                <p><em>Phase 3: </em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nisi deserunt ex, voluptatum praesentium laborum fugiat molestiae voluptates aliquam alias amet eaque, provident nulla. Aut tenetur molestiae harum consequatur in.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellat saepe natus quibusdam laborum neque, reiciendis in. Provident, aliquid. Assumenda optio nisi rem facilis iure blanditiis perspiciatis eaque dicta quam.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="how-card-wrapper">
+              <div class="how-card">
+                <div class="how-left">
+                  <div class="how-left-title">
+                    <h3>Phase 4</h3>
+                  </div>
+                  <div class="how-left-subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <div class="how-right">
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="phase-description">
+                <p><em>Phase 4: </em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nisi deserunt ex, voluptatum praesentium laborum fugiat molestiae voluptates aliquam alias amet eaque, provident nulla. Aut tenetur molestiae harum consequatur in.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repellat saepe natus quibusdam laborum neque, reiciendis in. Provident, aliquid. Assumenda optio nisi rem facilis iure blanditiis perspiciatis eaque dicta quam.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </section>
+
+
+
+      <div style="clear: both;" class="clearfix"></div>
+
+
+
+
+
+
+      <section id="contact">
+        <div class="section-title">
+          <h2>Contact us</h2>
+        </div>
+        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="container-fluid contact-wrapper">
+          <div class="row">
+            <div class=" left">
+              <form action="">
+                <input type="text" placeholder="Name">
+                <input type="mail" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+
+            <div class="right">
+              <ul>
+                <li><i class="fas fa-phone"></i>
+                  <div class="right-title">
+                    <h5>Call us</h5> xxx-xxx-xxxx
+                  </div>
+                </li>
+
+                <li><i class="fas fa-clock"></i>
+                  <div class="right-title">
+                    <h5>Working hours</h5> 7am - 19.00
+                  </div>
+                </li>
+
+                <li><i class="fas fa-id-card"></i>
+                  <div class="right-title">
+                    <h5>Contact info</h5> pasarela70@gmail.com
+                  </div>
+                </li>
+
+                <li><i class="fas fa-envelope-open-text"></i>
+                  <div class="right-title">
+                    <h5>Mailing address</h5> 23 Genesis, Blainville, Canada
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+      <div id="copy">
+        &copy; Ait Assou 2020
+      </div>
+    </footer>
+  </div>
+
+
+
+
+</body>
+
+<script src="js/jQuery.js"></script>
+<script src="./js/app.js"></script></html>
