@@ -17,8 +17,6 @@
     text-align: center;
   }
 
-
-
   .why-title {
     width: 30%;
   }
@@ -42,24 +40,29 @@
 
   .main-nav li {
     display: inline-block;
-    margin-right: 1.2rem;
-    font-size: 1.5rem;
+    margin-right: 1.1rem;
   }
 
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 1rem;
+    ;
+  }
 
   .contact-wrapper {
     width: 95%;
   }
-
-
-
-
-
-
 }
 
 /*    // Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 1.2rem;
+    ;
+  }
+
   .section-title {
     width: 70%;
   }
@@ -75,14 +78,18 @@
   .contact-wrapper {
     width: 75%;
   }
-
-
-
-
 }
 
 /*    // Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 1.3rem;
+    ;
+  }
+
+
   #form-container {
     background-color: rgba(0, 0, 0, 0.38);
     width: 30%;
